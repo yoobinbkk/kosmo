@@ -2,7 +2,7 @@ package chapter05.EX01;
 
 import java.util.Arrays;
 
-public class Using_Array04_Review {
+public class Using_Arrays04_Review {
 
 	public static void main(String[] args) {
 		

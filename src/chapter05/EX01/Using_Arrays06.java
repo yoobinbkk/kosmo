@@ -1,6 +1,6 @@
 package chapter05.EX01;
 
-public class Using_Array06 {
+public class Using_Arrays06 {
 
 	public static void main(String[] args) {
 		

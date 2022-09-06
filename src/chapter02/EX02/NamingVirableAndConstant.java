@@ -39,7 +39,7 @@ public class NamingVirableAndConstant {
 		System.out.println(PI);
 		
 		final int MY_DATA ;			// 상수면 대문자로 적는 게 규칙
-		int myData					// 변수면 소문자
+		int myData;				// 변수면 소문자
 		
 	}
 

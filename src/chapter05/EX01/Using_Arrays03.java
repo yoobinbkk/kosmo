@@ -2,7 +2,7 @@ package chapter05.EX01;
 
 import java.util.Arrays;
 
-public class Using_Array03 {
+public class Using_Arrays03 {
 
 	public static void main(String[] args) {
 		
