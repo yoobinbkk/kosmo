@@ -55,7 +55,7 @@ public class Using_String05 {
 		
 		System.out.println("===========================");
 		
-		// 3. 문자열 변환 및 연결 (STring.valueOf(), concat())
+		// 3. 문자열 변환 및 연결 (String.valueOf(), concat())
 		String str3 = String.valueOf(2.3);							// double -> String
 		String str4 = String.valueOf(false);						// boolean -> String
 		
@@ -64,6 +64,9 @@ public class Using_String05 {
 		
 		String str5 = str3.concat(str4);							// + 와 같음
 		System.out.println(str5);
+		System.out.println(str3 + str4);
+		
+		System.out.println("===========================");
 		
 		// 4. 문자열 --> byte[] (getBytes()), 문자열 -> char[] (toCharArray()) 
 		

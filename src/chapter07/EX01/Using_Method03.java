@@ -33,7 +33,7 @@ public class Using_Method03 {
 		System.out.println(a);			// 초기값을 넣지 않고 출력 시 오류 발생
 		
 		// main 메소드 내부의 메소드 선언 불가
-		//	메소드는 클래스 블락에서 선언되어야 한다.
+		// 메소드는 클래스 블락에서 선언되어야 한다.
 		/* 오류 발생됨
 		void abc () {
 			System.out.println("안녕하세요");

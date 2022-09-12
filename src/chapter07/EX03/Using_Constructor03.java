@@ -61,9 +61,8 @@ public class Using_Constructor03 {
 		
 		// 필드의 값을 할당하는 3 가지 방법
 		
-		BB bb1 =new BB();
-		
 		// 1. 필드의 값을 직접 할당
+		BB bb1 =new BB();
 		bb1.eng = 90;
 		bb1.kor = 80;
 		bb1.mat = 70;
