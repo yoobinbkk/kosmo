@@ -91,7 +91,7 @@ public class Using_TypeCasting02 {
 				aa20.a();
 			// 다운캐스팅을 할 때는 instanceof를 사용해야 한다.
 			// aa20 --> Bb 타입으로 다운 캐스팅
-				if (aa20 instanceof Bb) {					// 
+				if (aa20 instanceof Bb) {					
 					Bb bb30 = (Bb) aa20;					// 지역 변수 : bb30
 					System.out.println(bb30.a);
 					System.out.println(bb30.b);
@@ -108,6 +108,9 @@ public class Using_TypeCasting02 {
 					cc30.b();
 					cc30.c();
 				}
+				
+				// instanceof --> 객체 선언문의 오류를 방지하기 위해서 사용
+				// @Override --> 클래스 메소드의 오류를 방지하기 위해서 사용
 	}
 
 }
