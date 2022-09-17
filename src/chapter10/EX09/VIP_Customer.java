@@ -18,4 +18,8 @@ public class VIP_Customer extends Customer {
 		bonusPoint = 10;
 	}
 	
+	// 상속된 부분은 Customer의 필드
+	// (상속해서) 덮어쓰기 된 부분은 customerGrade, bonusRatio
+	// bonusPoint는 여기서 처음 사용됨
+	
 }
