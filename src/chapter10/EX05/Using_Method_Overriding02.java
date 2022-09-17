@@ -8,7 +8,7 @@ class Animal {
 
 class Bird extends Animal {
 	
-	@Override
+	@Override												// @Override 를 빼먹지 말자
 	void cry() {
 		System.out.println("짹짹");
 	}
