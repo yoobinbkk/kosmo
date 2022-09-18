@@ -10,22 +10,15 @@ package chapter10;
 	5. Super()
 */
 
-class NPC {
-	
-	String name = "Nameless";
-	String gender = "Unkown";
-	String race = "Unknown";
-	int health = 10;
-	int stamina = 5;
-	int damage = 1;
-	int defense;
-	
-	NPC () {}
-	NPC (String name) {
-		
-	}
-	
-}
+/*
+* 	1. 상속
+* 	class 클래스명 extends 부모 클래스 {}
+* 	필드, 생성자, 메소드를 상속한다. 거기서 무언가를 추가하는 작업하는 게 관건이다.
+* 	super.(생성자명)와 super();를 통해 중복 내용을 특정 부분에 부여할 수 있다.
+* 
+* 	2. 다형성
+*/
+
 
 public class Review10_1 {
 
