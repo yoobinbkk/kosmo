@@ -56,12 +56,11 @@ public class EX03_For응용 {
 //		}
 		
 		// 문제 5
-		for (int i=0 ; i<26 ; i++) {						// 여기서부터 시작
-			for (char j = (char) ('A'+i) ; j<='Z' ; j++) {
-				System.out.print(j);
-			}
-			System.out.println();
-		}
+//		for (int i=0 ; i<26 ; i++) {
+//			for (int k=0 ; k<i ; k++) System.out.print(" ");
+//			for (char j = (char) ('A'+i) ; j<='Z' ; j++) System.out.print(j);
+//			System.out.println();
+//		}
 
 		
 	}
