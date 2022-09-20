@@ -1,4 +1,4 @@
-package chapter04;
+package chapter04.EX01;
 
 public class If_01 {
 
