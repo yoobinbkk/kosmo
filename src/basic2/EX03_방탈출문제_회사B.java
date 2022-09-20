@@ -31,10 +31,10 @@ public class EX03_방탈출문제_회사B {
 				}
 				num /= 10;
 			}
-			if (num369=true)
+			if (num369==true) {
 				if(i==num0) break;
 				System.out.printf(", ");
-			
+			}
 		}
 		
 		System.out.println("에 숫자 3, 6, 9가 포함되어 총 " + count + "회 손뼉을 칩니다.");
