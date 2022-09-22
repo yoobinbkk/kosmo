@@ -19,17 +19,30 @@ import java.util.Scanner;
 
 public class Method_Extra {
 	
-	static int election (int[] a) {
-		int electedOne = 0;							// 투표를 가장 많이 받은 후보의 수
+	static String electedOne (int[] a) {
 		int max = 0;
+		int[] electedOne = new int[a.length-1];
 		for (int i=0 ; i<a.length ; i++) {
 			if (a[i] > max) {						// 투표를 가장 많이 받은 값을 찾아내면
 				max = a[i];
-				electedOne = i+1;					// 그 값의 인덱스를 변수에 넣기
 			}
 		}
-		
-		return electedOne;							// 후보의 수를 반환
+		for (int i=0 ; i<a.length ; i++) {
+			if (max == a[i]) {
+				electedOne[i] = i+1;
+			}
+		}
+		return Arrays.toString(a);							// 후보의 수를 반환
+	}
+	
+	static int maxVote (int[] a) {
+		int max = 0;
+		for (int i=0 ; i<a.length ; i++) {
+			if (a[i] > max) {
+				max = a[i];
+			}
+		}
+		return max;									// 최대값을 반환
 	}
 	
 	public static void main(String[] args) {
@@ -37,10 +50,10 @@ public class Method_Extra {
 		Scanner input = new Scanner (System.in);
 		
 		System.out.println("후보의 수를 입력하세요>>>");
-		int N = input.nextInt();
+		int N = input.nextInt();							// N의 입력값 받기
 		
 		System.out.println("투표한 사람의 수를 입력하세요>>>");
-		int voteNum = input.nextInt();
+		int voteNum = input.nextInt();						// votes의 수를 입력값으로 받기
 		
 		int[] votes = new int[voteNum];
 		int[] ballotCount = new int[N];
@@ -60,7 +73,7 @@ public class Method_Extra {
 			System.out.println("\t" + (i+1) + "번 후보가 " + ballotCount[i] + "표\n");
 		}
 		
-		System.out.println("이 경우 " + election(ballotCount) + "번 후보가 표로 가장 많은 표를 얻었습니다.");
+		System.out.println("이 경우 " + electedOne(ballotCount) + "번 후보가 " + maxVote(ballotCount) + "표로 가장 많은 표를 얻었습니다.");
 		
 		
 		
