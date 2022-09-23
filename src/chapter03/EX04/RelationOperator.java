@@ -35,6 +35,8 @@ public class RelationOperator {
 				
 		System.out.println(str1);		// 객체의 번지수를 출력
 		System.out.println(str2);
+		
+		System.out.println(str1.equals(str2));
 
 	}
 

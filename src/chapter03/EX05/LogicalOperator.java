@@ -55,7 +55,7 @@ public class LogicalOperator {
 		// AND 연산에서 숏 서킷이 발생되는 예제
 		// 논리 연산에서는 short circuit이 발생 됨
 		int value1 =3;
-		System.out.println(false && ++value1 > 6);		// shot circuit 발생
+		System.out.println(false && ++value1 > 6);		// short circuit 발생
 		System.out.println(value1);
 		
 		// 비트 연산에서는 short circuit이 발생 안 됨
