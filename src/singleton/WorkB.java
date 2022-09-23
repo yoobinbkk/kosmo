@@ -5,7 +5,6 @@ public class WorkB {
 	DBConnect con;
 	
 	public WorkB () {
-//		con = new DBConnect();
 		con = DBConnect.getInstance();
 	}
 	
