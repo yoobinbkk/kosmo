@@ -36,7 +36,7 @@ public class EX02_Control {
 			System.out.println("남자");
 		} else if (yim == '2' || yim == '4' || yim == '0') {
 			System.out.println("여자");
-		}
+		} else {}
 		
 		System.out.println("=====출신=====");
 		
