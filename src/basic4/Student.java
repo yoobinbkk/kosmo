@@ -89,5 +89,5 @@ public class Student {
 	 Setter Getter를 자동으로 만들어라 --> private의 변수값을 바꾸기 위해서
 	 보안을 강화하기 위해 (외부에서 변수값을 바꾸지 않기 위해)
 	 
-	 this를 꼭시 명시
+	 this를 꼭 명시
 */
