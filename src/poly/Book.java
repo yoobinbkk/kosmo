@@ -5,11 +5,11 @@ public class Book extends Item {
 	private String author;
 	private String publisher;
 	
-	Book () {
+	public Book () {
 		this(0, "제목없음", "무명", "출판사 모름");
 		System.out.println("Book 기본생성자");
 	}
-	Book (int num, String title, String author, String publisher) {
+	public Book (int num, String title, String author, String publisher) {
 //		super.num = num;												// super (부모 것 명시)
 //		super.title = title;
 		super(num, title);

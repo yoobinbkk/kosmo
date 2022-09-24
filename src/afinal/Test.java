@@ -7,22 +7,22 @@ final class Parent {
 	}
 }
 
-class Child extends Parent {
-	Child(){
+//class Child extends Parent {
+//	Child(){
 //		field = "내꺼";
-	}
+//	}
 //	public void jib() {
 //		System.out.println("내가 탕진함");
 //	}
-}
+//}
 
 public class Test {
 
 	public static void main(String[] args) {
 		
-		Parent p = new Child();
-		System.out.println(p.field);
-		p.jib();
+//		Parent p = new Child();
+//		System.out.println(p.field);
+//		p.jib();
 	}
 
 }

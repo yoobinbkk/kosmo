@@ -1,5 +1,7 @@
 package test;
 
+import poly.Book;
+
 public class MainTest {
 
 	public static void main(String[] args) {
@@ -18,6 +20,9 @@ public class MainTest {
 		b.withdrawal(40000);
 		
 		System.out.println(b.toString());
+		
+		Book c = new Book(9, "피노키오", "사바라", "CJ");
+		c.output();
 		
 	}
 
