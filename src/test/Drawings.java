@@ -47,7 +47,6 @@ public class Drawings {
 	int balance = 100000;
 
 	Drawings () {}
-	
 	public void withdrawal (int w) {
 		if (w <= balance) {
 			System.out.println(w + "원");
@@ -56,15 +55,24 @@ public class Drawings {
 			System.out.println("잔액이 부족합니다.");
 		}
 	}
-	
 	public void deposit (int d) {
 		balance += d;
 		System.out.println(balance + "원");
 	}
-	
 	public String toString() {
 		return "예금주:" + holder + ", 계좌번호:" + accountNum + ", 잔액:" + balance + "원";		
 	}
-	
+	public static void main(String[] args) {
+
+		Drawings b = new Drawings();
+
+		b.deposit(50000);
+
+		b.withdrawal(120000);
+
+		b.withdrawal(40000);
+
+		System.out.println(b.toString());
+	}
 
 }
